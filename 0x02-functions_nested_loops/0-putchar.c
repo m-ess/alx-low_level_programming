@@ -1,9 +1,13 @@
-#include "main"
-/**
- * main - prints _putchar
- * this function prints the characters using the _putchar function.
- * Return: alwats 0 (success)
- */
-int main (void)
-{
+#include "main.h"
 
+/**
+ * main - Write a program that prints _putchar, followed by a new line.
+ *
+ * Return: always 0 (success)
+ */
+int main(void)
+{
+	printf("_putchar\n");
+
+	return (0);
+}
