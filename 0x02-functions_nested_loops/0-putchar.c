@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints _putchar
- * yhis fonction prints the characters using _putchar fonctions.
+ * this fonction prints the characters using _putchar fonctions.
  * Return: 0
  */
 int main(void)
@@ -16,4 +16,7 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
+}
+int  _putchar(char c) {
+	return putchar(c);
 }
