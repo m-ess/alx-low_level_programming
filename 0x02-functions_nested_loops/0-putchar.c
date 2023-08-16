@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - print _putchar
- * this function prints the characters using the _putchar functions.
+ * main - prints _putchar
+ * yhis fonction prints the characters using _putchar fonctions.
  * Return: 0
  */
 int main(void)
