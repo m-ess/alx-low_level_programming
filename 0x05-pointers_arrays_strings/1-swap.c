@@ -5,11 +5,11 @@
  * @b: input
  * Return: always 0
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int swp;
 
-	change = *a;
+	swp  = *a;
 	*a = *b;
-	*b = change;
+	*b = swp;
 }
