@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * int_index - searches for an integer.
+ * int_index - function that searches for an integer.
  * @array: input
- * @size; size of the array
+ * @size: input
  * @cmp: input
  * Return: 0
  */
